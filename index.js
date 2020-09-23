@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', (ev) => {
   }
 
   function checkFoodsUnlocked() {
-    if (Number(localStorage.getItem('expLevel')) > 9) {
+    if (Number(localStorage.getItem('expLevel')) > 1) {
       document.querySelector('.food2').classList.remove('hidden')
     }
     if (Number(localStorage.getItem('expLevel')) > 39) {
